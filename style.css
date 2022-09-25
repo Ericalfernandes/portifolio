@@ -40,8 +40,7 @@
 }
 
 .section02 {
-    font-size: 30px;
-    
+    font-size: 30px;    
 }
 
 .section03 {
@@ -67,10 +66,10 @@ footer {
 }
 
 /* Página contact.html */
-.content-writed2{
-    background-color: #c2e1ee;
-    padding: 100px 0px 60px 300px; 
-    width: 1350px;
+.content-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .content-writed-contact {
