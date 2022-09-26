@@ -29,7 +29,7 @@
 
 
 .content-writed {
-    background-color: #c2e1ee;
+    background-image: url("/26669.jpg") ;
     padding: 30px 0px 60px 0px; 
     width: 950px;
 }
@@ -43,8 +43,15 @@
     font-size: 30px;    
 }
 
+
 .section03 {
-    padding-top: 100px;
+    padding-top: 30px;
+}
+
+.section03-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .navs {
@@ -58,7 +65,7 @@
 
 footer {
     width: 100%;
-    padding-top: 100px;
+    margin-top: 60px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -78,4 +85,9 @@ footer {
     justify-content: center;
     float: inline-start;
     height: 390px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-image: url("/26669.jpg");
 }
+
+/* carrossel */
